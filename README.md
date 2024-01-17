@@ -8,6 +8,8 @@ __1. Genre and Artist-Based Relationships:__
 
 Our initial strategy involved establishing explicit relationships between nodes (songs) based on genre and artist associations. This method began with the creation of genre and artist nodes, followed by connecting individual tracks to their respective genres and artists. Subsequently, the database was queried to extract recommended songs based on genre and artist relationships. This approach prioritizes the inherent organizational structure of music, emphasizing genre and artist affiliations.
 
+![image](https://github.com/kumarsauravjha/Music-Recommendation-on-Neo4j/assets/143224932/0fcdc44a-cfd8-4d44-88ae-cfdf977c1d0e)
+
 __2. Similarity-Based Relationships using Machine Learning:__
 
 The second approach adopted a machine learning algorithm to infer similarity-based relationships between tracks. Leveraging a sampled dataset derived from the extensive Spotify dataset, we utilized a graph data science library to compute Euclidean similarity scores between tracks. Subsequently, the database was queried to retrieve recommended songs based on these similarity scores. This approach focuses on leveraging machine learning to establish implicit connections between songs, potentially uncovering less evident relationships.
